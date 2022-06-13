@@ -8,6 +8,7 @@ const multiplyByTen = (num) => {
 
 const subtractFive = (num) => {
   // return num after subtracting five
+  return num-5;
   // code here
 };
 
