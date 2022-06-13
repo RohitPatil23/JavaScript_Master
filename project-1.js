@@ -65,6 +65,7 @@ return x+y;
 const subtract = (x, y) => {
   // subtract y from x and return the value
   // code here
+  return x-y;
 };
 
 const divide = (x, y) => {
