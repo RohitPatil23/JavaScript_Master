@@ -71,6 +71,7 @@ const subtract = (x, y) => {
 const divide = (x, y) => {
   // divide x by y and return the value
   // code here
+  return x/y;
 };
 
 const multiply = (x, y) => {
