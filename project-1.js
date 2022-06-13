@@ -49,6 +49,11 @@ const greaterThanFifty = (num) => {
   // return true if num is greater than fifty
   // otherwise return false
   // code here
+  if (num>50){
+    return true;
+  }else{
+    return false;
+  };
 };
 
 const add = (x, y) => {
