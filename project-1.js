@@ -170,6 +170,7 @@ const getRectangleArea = (length, width) => {
 const getTriangleArea = (base, height) => {
   // return the area of the triangle by using base and height
   // code here
+  return (base*height)/2;
 };
 
 const getCircleArea = (radius) => {
