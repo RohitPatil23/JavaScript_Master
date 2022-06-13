@@ -101,6 +101,11 @@ const isOdd = (num) => {
   // return true if num is odd
   // otherwise return false
   // code here
+  if (num%2 != 0){
+    return true;
+  }else {
+    return false;
+  };
 };
 
 const square = (num) => {
