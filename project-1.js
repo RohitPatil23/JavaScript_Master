@@ -164,6 +164,7 @@ return "hello " +name+"!";
 const getRectangleArea = (length, width) => {
   // return the area of the rectangle by using length and width
   // code here
+  return length*width;
 };
 
 const getTriangleArea = (base, height) => {
