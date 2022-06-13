@@ -123,6 +123,7 @@ const cube = (num) => {
 const raiseToPower = (num, exponent) => {
   // raise num to whatever power is passed in as exponent
   // code here
+  return Math.pow(num,exponent);
 };
 
 const roundNumber = (num) => {
