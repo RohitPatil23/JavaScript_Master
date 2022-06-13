@@ -117,6 +117,7 @@ const square = (num) => {
 const cube = (num) => {
   // cube num and return the new value
   // code here
+  return num*num*num;
 };
 
 const raiseToPower = (num, exponent) => {
