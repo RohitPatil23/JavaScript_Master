@@ -47,7 +47,14 @@ const isInteger = (num) => {
   // -10 -> true
   // otherwise return false
   // hint: you can solve this using Math.floor
+  if (typeof(num)==="number" && Math.floor(num)!=0){
+    return true;
+  }else {
+    return false;
+  };
 };
+// let a = isInteger(0.8);
+// console.log(a);
 
 const fizzBuzz = (num) => {
   // if num is divisible by 3 return 'fizz'
