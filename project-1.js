@@ -90,6 +90,11 @@ const isEven = (num) => {
   // return true if num is even
   // otherwise return false
   // code here
+  if (num%2 == 0){
+    return true;
+  }else {
+    return false;
+  };
 };
 
 const isOdd = (num) => {
