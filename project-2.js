@@ -69,8 +69,8 @@ const fizzBuzz = (num) => {
     return "fizz";
   };
 };
-let test =fizzBuzz(5);
-console.log(test);
+// let test =fizzBuzz(5);
+// console.log(test);
 
 const isPrime = (num) => {
   // return true if num is prime.
@@ -78,7 +78,32 @@ const isPrime = (num) => {
   // hint: a prime number is only evenly divisible by itself and 1
   // hint2: you can solve this using a for loop
   // note: 0 and 1 are NOT considered prime numbers
+  if (num  === 1) {
+    return false;
+}// checking  if  number is greater than one or not
+
+else if (num  > 1) {
+
+    // iterating from 2 to number -1 (leaving 1 and itself )
+    for (let i = 2; i < num ; i++) {
+        if (num  % i == 0) {
+         return false;
+        
+        }
+    }
+
+    if (num) {
+        return true;
+    } else {
+        return false;
+    }
+}// check if number is less than 1
+else {
+    return false;
+}
 };
+// let test = isPrime(3);
+// console.log(test);
 
 const returnFirst = (arr) => {
   // return the first item from the array
