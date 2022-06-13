@@ -22,7 +22,14 @@ const greeting = (language) => {
 const isTenOrFive = (num) => {
   // return true if num is 10 or 5
   // otherwise return false
+  if (num==10 || num==5){
+    return true;
+  }else{
+    return false;
+  }
 };
+// let a= isTenOrFive(1);
+// console.log(a);
 
 const isInRange = (num) => {
   // return true if num is less than 50 and greater than 20
